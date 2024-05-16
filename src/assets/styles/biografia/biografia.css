@@ -1,0 +1,110 @@
+.sectionBiografiaContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    height: 130vh;
+}
+.sectionBiografiaTitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.sectionBiografiaContenido{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.row{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.sectionBiografiaPerfiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sectionBiografiaPerfil{
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.sectionBiografiaProfileTitle{
+    text-align: center;
+}
+
+.mitad{
+    width: 50%;
+}
+
+.sectionBiografiaProfileImg{
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    transition: 0.3s all; 
+}
+
+.show{
+    width: 5vw;
+    height: 5vw;
+}
+
+.hide{
+    width: 10vw;
+    height: 10vw;
+}
+
+.sectionBiografiaProfileImg:hover{
+    transform: scale(1.1);
+}
+
+.sectionBiografiaCard{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionBiografiaCardImg{
+    width: 50%;
+    border-radius: 50px;
+}
+
+.sectionBiografiaCardTitle{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+.sectionBiografiaCardParrafo{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}

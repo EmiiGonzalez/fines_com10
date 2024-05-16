@@ -1,0 +1,14 @@
+.sectionReflexionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionReflexionParrafo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
